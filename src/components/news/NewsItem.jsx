@@ -16,10 +16,10 @@ const NewsItem = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3">
       {ItemData.map((data) => (
-        <div key={data.image} className=" h-[360px] w-full pb-8">
+        <div key={data.image} className="lg:h-[360px] w-full pb-8">
           <img src={data.image} className="rounded-md h-[200px] w-full" alt="image" />
           <div className="pl-4 w-full" >
-            <p className="pr-20">{data.description}</p>
+            <p className="md:pr-20 md:text-lg text-base">{data.description}</p>
             <p className="text-sm mt-5 text-[#232323]">{data.date}</p>
           </div>
         </div>
