@@ -1,18 +1,18 @@
 const Traction = () => {
   return (
-    <div className="bg-[#EDE7EF] w-full h-[554px] p-10">
-      <div className="py-10 px-16">
-        <div className="flex flex-row justify-between">
+    <div className="bg-[#EDE7EF] w-full md:p-10 p-8">
+      <div className="py-8 md:px-16">
+        <div className="flex md:flex-row flex-col justify-between">
           <div className="text-[#3C053C]">
-            <h2 className="text-4xl font-semibold">Success Stories</h2>
-            <p className="pr-20">
+            <h2 className="text-3xl font-semibold md:mb-0 mb-3">Success Stories</h2>
+            <p className="md:pr-20 pb-5">
               We help businesses convert conversations to results. Join this
               list of businesses that we work with.
             </p>
             <a href="#">Read the latest stories</a>
           </div>
-          <div className="pr-32">
-            <div className=" grid grid-cols-3 pr-32">
+          <div className="md:pr-32 md:my-0 my-10">
+            <div className=" grid grid-cols-3 md:pr-32">
               <img src="./images/Link_margin.png" alt="image" />
               <img src="./images/ford.png" alt="image" />
               <img src="./images/audi.png" alt="image" />
