@@ -28,7 +28,7 @@ const NavBar = ({ selectedPage, setSelectedPage }) => {
   const isAboveSmallScreen = useMediaQuery("(min-width: 768px)");
 
   return (
-    <nav className="bg-white z-40 w-full fixed top-0 md:py-5 py-4 md:px-16 font-semibold">
+    <nav className="bg-white z-40 w-full fixed top-0 md:py-5 py-3 md:px-16 font-semibold">
       <div className="flex items-center justify-between md:mx-auto w-5/6">
         <Link to="/" >
           <img className="w-52 pl-10" src="./images/logo.png" alt="logo" />
@@ -81,7 +81,7 @@ const NavBar = ({ selectedPage, setSelectedPage }) => {
                 whileTap={{ scale: 0.9 }}
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
-                <AiOutlineClose size={35} />
+                <AiOutlineClose size={24} />
               </motion.button>
             </div>
             <div className="flex flex-col gap-10 ml-[33%] text-xl">
