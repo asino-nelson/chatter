@@ -21,7 +21,7 @@ const CardData = [
 
 const ValuePropCard = () => {
   return (
-    <div className="grid items-center grid-cols-1 lg:grid-cols-3 md:px-8 px-10 lg:h-[305px] w-full gap-5">
+    <div className="grid items-center grid-cols-1 lg:grid-cols-3 md:px-8 px-0 lg:h-[305px] w-full gap-5">
       {CardData.map((data) => (
         <div
           key={data.icon}
