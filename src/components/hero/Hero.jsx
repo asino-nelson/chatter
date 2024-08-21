@@ -8,7 +8,7 @@ const Hero = () => {
           <h2 className="font-bold md:text-7xl text-5xl text-start">
             Unlock the power of Conversations for your business!
           </h2>
-          <p className="md:py-0 py-4 text-lg md:text-2xl">
+          <p className="py-4 text-lg md:text-2xl">
             Easily atomate your conversations and for faster results. Give your
             customers instant replies 24/7, Close conversations faster and Free
             up your time to focus on growing your business.
