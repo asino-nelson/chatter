@@ -1,8 +1,8 @@
 const TermsOfService = () => {
   return (
     <div>
-      <div className="w-full bg-violet-500/50 py-32 px-96">
-        <h1 className="text-6xl text-center font-bold mb-6">Terms of Service</h1>
+      <div className="w-full bg-violet-500/50 md:py-32 py-24 md:px-96 px-8">
+        <h1 className="md:text-6xl text-3xl text-center font-bold mb-6">Terms of Service</h1>
 
         <p className="text-gray-600 mb-4">Last updated: [Date]</p>
 
