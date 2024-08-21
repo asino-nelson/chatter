@@ -11,7 +11,7 @@ const Traction = () => {
             </p>
             <a href="#">Read the latest stories</a>
           </div>
-          <div className="md:pr-32 md:my-0 my-10">
+          <div className="md:pr-32 md:mt-0 my-10">
             <div className=" grid grid-cols-3 md:pr-32">
               <img src="./images/Link_margin.png" alt="image" />
               <img src="./images/ford.png" alt="image" />
