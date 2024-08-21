@@ -66,7 +66,7 @@ const NavBar = ({ selectedPage, setSelectedPage }) => {
             whileTap={{ scale: 0.9 }}
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
-            <FiMenu />
+            <FiMenu size={24} />
           </motion.button>
         )}
 
@@ -77,11 +77,11 @@ const NavBar = ({ selectedPage, setSelectedPage }) => {
               {/**Close btn */}
               <motion.button
                 alt="menu"
-                className="rounded-full text-white p-3 mr-7 -mt-8 hover:text-violet-300 transition duration-100"
+                className="rounded-full text-white p-3 mr-7 -mt-5 hover:text-violet-300 transition duration-100"
                 whileTap={{ scale: 0.9 }}
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
-                <AiOutlineClose />
+                <AiOutlineClose size={35} />
               </motion.button>
             </div>
             <div className="flex flex-col gap-10 ml-[33%] text-xl">
