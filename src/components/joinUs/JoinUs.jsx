@@ -6,7 +6,7 @@ const JoinUs = () => {
     >
       <img
         src="./images/join.png"
-        className="md:w-1/2 w-full md:h-full h-3/4"
+        className="md:w-1/2 w-full md:h-full h-4/5"
         alt="image"
       />
       <div className="h-full md:py-8 py-4 md:px-10 px-4">
