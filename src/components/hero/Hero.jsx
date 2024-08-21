@@ -1,12 +1,12 @@
 const Hero = () => {
   return (
-    <main className="w-full h-screen flex flex-row top-0 items-center justify-items-center">
-      <div className="bg-[#6016A2] text-white py-20 px-[70px] gap-[10px] w-1/2 h-full">
-        <div className="w-full h-full gap-5 flex flex-col justify-center ">
-          <h2 className="font-bold text-7xl">
+    <main className="w-full md:h-screen flex md:flex-row flex-col top-0 items-center justify-items-center">
+      <div className="bg-[#6016A2] text-white py-20 md:px-[70px] px-4 gap-[10px] md:w-1/2 w-full h-full">
+        <div className="w-full h-full gap-5 flex flex-col justify-center md:p-0 p-5 ">
+          <h2 className="font-bold md:text-7xl text-5xl text-start">
             Unlock the power of Conversations for your business!
           </h2>
-          <p>
+          <p className="md:py-0 py-4 text-lg md:text-2xl">
             Easily atomate your conversations and for faster results. Give your
             customers instant replies 24/7, Close conversations faster and Free
             up your time to focus on growing your business.
@@ -14,11 +14,11 @@ const Hero = () => {
           <a href="#">Learn more</a>
         </div>
       </div>
-      <div className="h-full">
+      <div className="h-full md:-mt-0 -mt-10">
         <img
           src="./images/african-american-mother-with-his-son 1.png"
           alt="image"
-          className="w-full h-full object-fill"
+          className="w-full md:h-full h-1/2 object-fill"
         />
       </div>
     </main>
