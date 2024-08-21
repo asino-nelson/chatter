@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import useMediaQuery from "../../hooks/useMediaQuery";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const NavLink = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
@@ -30,10 +30,10 @@ const NavBar = ({ selectedPage, setSelectedPage }) => {
   return (
     <nav className="bg-white z-40 w-full fixed top-0 py-5 px-16 font-semibold">
       <div className="flex items-center justify-between mx-auto w-5/6">
-        {/* <Link to="/" >
+        <Link to="/" >
           <img className="w-52" src="./images/logo.png" alt="logo" />
-        </Link> */}
-        <img className="w-52" src="./images/logo.png" alt="logo" />
+        </Link>
+        
 
         {/**DESKTOP NAV */}
         {isAboveSmallScreen ? (
