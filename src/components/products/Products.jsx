@@ -2,12 +2,12 @@ import ProductCard from "./ProductCard";
 
 const Products = () => {
   return (
-    <div id="products" className="h-[549px] w-full py-10">
-      <div className="py-8 px-16">
-        <h2 className="text-4xl">OUR PRODUCTS</h2>
-        <p className="text-2xl">Take a closer look at the products we offer.</p>
+    <div id="products" className="w-full py-10">
+      <div className="py-8 md:px-16 px-8">
+        <h2 className="text-3xl md:mb-0 mb-3">OUR PRODUCTS</h2>
+        <p>Take a closer look at the products we offer.</p>
       </div>
-      <div className="px-8 gap-5 w-full">
+      <div className="md:px-8 px-4 w-full">
         <ProductCard />
       </div>
     </div>
