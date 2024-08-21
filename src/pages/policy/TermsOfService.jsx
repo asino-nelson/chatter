@@ -4,11 +4,11 @@ const TermsOfService = () => {
       <div className="w-full bg-violet-500/50 md:py-32 py-24 md:px-96 px-8">
         <h1 className="md:text-6xl text-3xl text-center font-bold mb-6">Terms of Service</h1>
 
-        <p className="text-gray-600 mb-4">Last updated: [Date]</p>
+        <p className="text-gray-600 mb-4">Last updated: 21/8/2024</p>
 
-        <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
+        <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
         <p className="text-gray-800 mb-4">
-          Welcome to [Your Company Name]. By accessing or using our website, you
+          By accessing or using our website, you
           agree to comply with and be bound by the following Terms of Service.
           If you disagree with any part of these terms, please do not use our
           services.
@@ -77,15 +77,6 @@ const TermsOfService = () => {
           If you have any questions about these Terms of Service, please contact
           us at:
         </p>
-        <address className="text-gray-800 mb-4">
-          [Your Company Name]
-          <br />
-          [Your Contact Information]
-          <br />
-          [Email Address]
-          <br />
-          [Phone Number]
-        </address>
       </div>
     </div>
   );
