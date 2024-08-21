@@ -1,6 +1,6 @@
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import FooterLink from "./FooterLink";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
@@ -48,15 +48,12 @@ const Footer = () => {
       <div className="border-t border-[#1C1E21] pt-10 flex flex-col lg:flex-row lg:items-center justify-between space-y-6 lg:space-y-0 text-sm lg:text-base font-normal">
         <div className="text-[#232323] text-sm mt-4">©2024 Meta</div>
         <div className="w-full font-semibold text-2xl lg:w-1/4 grid grid-cols-2 gap-4 lg:gap-0 lg:flex lg:flex-row flex-row-reverse justify-between mt-4">
-          {/* <Link to="/terms-of-service" className="hover:text-violet-700">
+          <Link to="/terms-of-service" className="hover:text-violet-700">
             Terms of service
           </Link>
           <Link to="/privacy-policy" className="hover:text-violet-700">
             Privacy policy
-          </Link>           */}
-
-          <a href="#">Terms of service</a>
-          <a href="#">Privacy policy</a>
+          </Link> 
         </div>
       </div>
     </div>
