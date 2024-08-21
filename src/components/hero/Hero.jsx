@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <main className="w-full md:h-screen flex md:flex-row flex-col top-0 items-center justify-items-center">
       <div className="bg-[#6016A2] text-white py-20 md:px-[70px] px-4 gap-[10px] md:w-1/2 w-full h-full">
-        <div className="w-full h-full gap-5 flex flex-col justify-center md:p-0 p-5 ">
+        <div className="w-full h-full flex flex-col justify-center md:p-0 p-1 ">
           <h2 className="font-bold md:text-7xl text-5xl text-start">
             Unlock the power of Conversations for your business!
           </h2>
