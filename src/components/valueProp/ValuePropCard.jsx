@@ -21,15 +21,15 @@ const CardData = [
 
 const ValuePropCard = () => {
   return (
-    <div className="grid items-center grid-cols-1 lg:grid-cols-3 px-8 h-[305px] w-full gap-5">
+    <div className="grid items-center grid-cols-1 lg:grid-cols-3 md:px-8 px-10 lg:h-[305px] w-full gap-5">
       {CardData.map((data) => (
         <div
           key={data.icon}
-          className="bg-white flex flex-col justify-center  h-[273px] rounded-md p-7 gap-3"
+          className="bg-white flex flex-col justify-center  md:h-[273px] rounded-md p-7 gap-3"
         >
-          <img src={data.icon} className="w-12 h-12" alt="icon" />
-          <h3 className="text-2xl font-semibold">{data.title}</h3>
-          <p className="pr-4">{data.description}</p>
+          <img src={data.icon} className="md:w-10 w-8 md:h-10 h-8" alt="icon" />
+          <h3 className="md:text-2xl text-xl font-semibold">{data.title}</h3>
+          <p className="md:text-lg text-base pr-4">{data.description}</p>
         </div>
       ))}
     </div>
