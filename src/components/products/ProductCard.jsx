@@ -1,3 +1,5 @@
+import LandingButton from "../shared/LandingButton";
+
 const CardData = [
   {
     title: "E-Shop Chatbot",
@@ -21,7 +23,7 @@ const ProductCard = () => {
               <div className="bg-[#1E715D] h-1 w-full md:mt-7 mt-4"></div>
             </div>
             <p className="md:py-5 py-4 md:text-lg text-base">{data.description}</p>
-            <a href="#">Learn more</a>
+            <LandingButton label="Learn more"/>
           </div>
         </div>
       ))}

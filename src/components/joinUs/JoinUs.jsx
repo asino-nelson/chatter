@@ -1,3 +1,5 @@
+import LandingButton from "../shared/LandingButton";
+
 const JoinUs = () => {
   return (
     <div
@@ -19,7 +21,7 @@ const JoinUs = () => {
             Join our waiting list and be the first to know when we launch! It
             takes less than a minute and you’re in!
           </p>
-          <a href="#">Join Now!</a>
+          <LandingButton label="Join Now!"/>
         </div>
       </div>
     </div>

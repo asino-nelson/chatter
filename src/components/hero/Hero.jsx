@@ -1,3 +1,5 @@
+import LandingButton from "../shared/LandingButton";
+
 const Hero = () => {
   return (
     <main className="w-full md:h-screen flex md:flex-row flex-col top-0 items-center justify-items-center">
@@ -11,7 +13,7 @@ const Hero = () => {
             customers instant replies 24/7, Close conversations faster and Free
             up your time to focus on growing your business.
           </p>
-          <a href="#">Learn more</a>
+          <LandingButton label="Learn more"/>
         </div>
       </div>
       <div className="h-full md:-mt-0 -mt-10">
