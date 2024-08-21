@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
-import useMediaQuery from "../hooks/UseMediaQuery";
+import useMediaQuery from "../../hooks/useMediaQuery";
 //import { Link } from "react-router-dom";
 
 const NavLink = ({ page, selectedPage, setSelectedPage }) => {
