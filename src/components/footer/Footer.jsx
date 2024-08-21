@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="lg:px-48 px-4 md:pt-20 pt-10 pb-10 md:text-xl text-lg flex flex-col shadow-x min-h-[479px] bg-[#F7F7F7]">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 pb-16 ">
         <div className="col-span-1">
-          <img src="./images/logo.png" className="md:w-3/4 w-2/5" alt="logo" />
+          <img src="./images/logo.png" className="w-3/4" alt="logo" />
           <p className="mt-4 mb-2 font-semibold">Follow Us</p>
           <div className="flex items-center md:gap-6 gap-4">
             <FaFacebookSquare />
