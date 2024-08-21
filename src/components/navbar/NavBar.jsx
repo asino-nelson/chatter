@@ -28,10 +28,10 @@ const NavBar = ({ selectedPage, setSelectedPage }) => {
   const isAboveSmallScreen = useMediaQuery("(min-width: 768px)");
 
   return (
-    <nav className="bg-white z-40 w-full fixed top-0 py-5 px-16 font-semibold">
-      <div className="flex items-center justify-between mx-auto w-5/6">
+    <nav className="bg-white z-40 w-full fixed top-0 md:py-5 py-4 md:px-16 font-semibold">
+      <div className="flex items-center justify-between md:mx-auto w-5/6">
         <Link to="/" >
-          <img className="w-52" src="./images/logo.png" alt="logo" />
+          <img className="w-52 pl-10" src="./images/logo.png" alt="logo" />
         </Link>
         
 
@@ -62,7 +62,7 @@ const NavBar = ({ selectedPage, setSelectedPage }) => {
         ) : (
           <motion.button
             alt="menu"
-            className="rounded-full text-violet-900 p-3 hover:text-violet-500 transition duration-100"
+            className="rounded-full text-violet-900 p-3 -mr-9 hover:text-violet-500 transition duration-100"
             whileTap={{ scale: 0.9 }}
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
@@ -72,12 +72,12 @@ const NavBar = ({ selectedPage, setSelectedPage }) => {
 
         {/* MOILE MENU POUP */}
         {!isAboveSmallScreen && isMenuToggled && (
-          <div className="fixed right-0 bottom-0 h-full bg-violet-400 w-full">
+          <div className="fixed right-0 bottom-0 h-full bg-violet-400 w-2/3">
             <div className="flex justify-end p-12">
               {/**Close btn */}
               <motion.button
                 alt="menu"
-                className="rounded-full text-violet-900 p-3 hover:text-violet-500 transition duration-100"
+                className="rounded-full text-white p-3 mr-7 -mt-8 hover:text-violet-300 transition duration-100"
                 whileTap={{ scale: 0.9 }}
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
